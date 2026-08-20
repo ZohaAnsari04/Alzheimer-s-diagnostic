@@ -1,3 +1,5 @@
+import { Patient } from '../types/patient';
+
 const BASE_URL = 'http://localhost:8000/api';
 
 const TOKEN_KEY = 'neuropath_jwt_token';
@@ -240,7 +242,7 @@ export const api = {
     return fetchJson<UserProfile>('/auth/me');
   },
   getPatientById: async (id: string) => {
-    return fetchJson<PatientDetail>(`/patients/${id}`);
+    return fetchJson<Patient>(`/patients/${id}`);
   },
   getImpactSavings: async () => {
     return fetchJson<any>('/analytics/resource-capacity');
