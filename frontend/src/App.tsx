@@ -40,10 +40,10 @@ export function App() {
     const token = getAuthToken();
     if (token) {
       api.getMe()
-        .then((profile) => {
+        .then((profile: UserProfile) => {
           setCurrentUser(profile);
         })
-        .catch((err) => {
+        .catch((err: unknown) => {
           console.warn('Saved auth session expired or invalid:', err);
           removeAuthToken();
           setCurrentUser(null);
