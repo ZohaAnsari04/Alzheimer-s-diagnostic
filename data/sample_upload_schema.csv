@@ -1,0 +1,6 @@
+patient_id,age,sex,current_stage,mmse_score,moca_score,cognitive_decline_indicator,memory_decline_flag,executive_fn_score,comorbidities_count,hypertension,diabetes,smoking_history,family_history_alzheimers,abeta_42_44_ratio,ptau_181,ptau_217,nfl,apoe4_carrier,hippocampal_volume_mm3,entorhinal_cortical_thickness,ventricle_volume_ratio,mri_completed
+P-2001,74,F,Cognitive Screening,21.0,18.5,True,True,19.0,2,True,True,False,True,0.072,32.4,0.51,36.5,True,2890.0,2.30,0.045,False
+P-2002,68,M,Blood-Based Biomarkers,25.0,22.0,False,True,24.0,1,True,False,True,False,0.095,18.2,0.22,22.0,False,3450.0,2.90,0.028,False
+P-2003,81,F,MRI Evaluation,19.0,16.0,True,True,16.0,3,True,True,False,True,0.061,41.0,0.68,48.0,True,2650.0,2.10,0.052,True
+P-2004,62,M,Cognitive Screening,28.0,27.0,False,False,28.0,0,False,False,False,False,0.115,12.0,0.12,15.0,False,3900.0,3.30,0.022,False
+P-2005,75,F,Cognitive Screening,23.0,20.0,True,False,21.0,1,False,True,False,True,0.081,25.0,0.39,29.0,True,3050.0,2.50,0.038,False

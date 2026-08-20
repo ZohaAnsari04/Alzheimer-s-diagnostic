@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "model_type": "Random Forest Classifier (Interpretable Ensemble)",
+    "dataset_name": "Synthetic Clinical Cohort",
+    "feature_count": 16,
+    "training_records": 198,
+    "validation_records": 50,
+    "roc_auc": 1.0,
+    "accuracy": 0.98,
+    "precision": 0.952,
+    "recall": 1.0,
+    "f1_score": 0.976,
+    "status": "Trained & Calibrated (80/20 Train/Validation Split)"
+  },
+  "feature_importances": [
+    {
+      "feature_key": "mmse_score",
+      "feature_name": "MMSE Cognitive Score",
+      "importance": 0.2966,
+      "importance_pct": 29.66
+    },
+    {
+      "feature_key": "executive_fn_score",
+      "feature_name": "Executive Function Score",
+      "importance": 0.2423,
+      "importance_pct": 24.23
+    },
+    {
+      "feature_key": "moca_score",
+      "feature_name": "MoCA Cognitive Score",
+      "importance": 0.1877,
+      "importance_pct": 18.77
+    },
+    {
+      "feature_key": "cognitive_decline_indicator",
+      "feature_name": "Cognitive Decline Flag",
+      "importance": 0.1138,
+      "importance_pct": 11.38
+    },
+    {
+      "feature_key": "ptau_217",
+      "feature_name": "Blood p-tau217",
+      "importance": 0.0381,
+      "importance_pct": 3.81
+    },
+    {
+      "feature_key": "abeta_42_44_ratio",
+      "feature_name": "Blood A\u03b2 42/40 Ratio",
+      "importance": 0.0349,
+      "importance_pct": 3.49
+    },
+    {
+      "feature_key": "ptau_181",
+      "feature_name": "Blood p-tau181",
+      "importance": 0.0339,
+      "importance_pct": 3.39
+    },
+    {
+      "feature_key": "nfl",
+      "feature_name": "Neurofilament Light (NfL)",
+      "importance": 0.0288,
+      "importance_pct": 2.88
+    },
+    {
+      "feature_key": "ventricle_volume_ratio",
+      "feature_name": "Ventricle Volume Ratio",
+      "importance": 0.0054,
+      "importance_pct": 0.54
+    },
+    {
+      "feature_key": "memory_decline_flag",
+      "feature_name": "Memory Decline Flag",
+      "importance": 0.0042,
+      "importance_pct": 0.42
+    },
+    {
+      "feature_key": "age",
+      "feature_name": "Patient Age",
+      "importance": 0.0041,
+      "importance_pct": 0.41
+    },
+    {
+      "feature_key": "apoe4_carrier",
+      "feature_name": "ApoE4 Carrier Status",
+      "importance": 0.0034,
+      "importance_pct": 0.34
+    },
+    {
+      "feature_key": "entorhinal_cortical_thickness",
+      "feature_name": "Entorhinal Thickness (MRI)",
+      "importance": 0.0034,
+      "importance_pct": 0.34
+    },
+    {
+      "feature_key": "hippocampal_volume_mm3",
+      "feature_name": "Hippocampal Volume (MRI)",
+      "importance": 0.0022,
+      "importance_pct": 0.22
+    },
+    {
+      "feature_key": "comorbidities_count",
+      "feature_name": "Comorbidities Count",
+      "importance": 0.0012,
+      "importance_pct": 0.12
+    },
+    {
+      "feature_key": "family_history_alzheimers",
+      "feature_name": "Family History",
+      "importance": 0.0002,
+      "importance_pct": 0.02
+    }
+  ]
+}

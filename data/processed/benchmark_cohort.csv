@@ -1,0 +1,249 @@
+patient_id,age,sex,current_stage,review_status,mmse_score,moca_score,cognitive_decline_indicator,memory_decline_flag,executive_fn_score,comorbidities_count,hypertension,diabetes,smoking_history,family_history_alzheimers,abeta_42_44_ratio,ptau_181,ptau_217,nfl,apoe4_carrier,hippocampal_volume_mm3,entorhinal_cortical_thickness,ventricle_volume_ratio,mri_completed
+P-1042,72,F,Cognitive Screening,Pending Review,22.0,19.0,True,True,20.0,2,True,True,False,True,0.075,29.4,0.48,34.5,True,2950.0,2.35,0.042,False
+P-1088,69,M,Blood-Based Biomarkers,Pending Review,24.0,21.0,True,True,22.0,1,True,False,True,True,0.068,31.2,0.52,38.0,True,3100.0,2.5,0.038,False
+P-1001,73,M,Cognitive Screening,Under Review,28.4,26.8,False,False,23.2,2,True,False,False,False,,,,,False,,,,False
+P-1002,68,M,Blood-Based Biomarkers,Completed,24.9,22.5,False,True,28.9,0,True,False,False,False,0.12,16.5,0.05,25.6,True,,,,False
+P-1003,66,M,Cognitive Screening,Under Review,19.1,16.3,True,True,16.4,2,True,False,True,False,0.068,30.6,0.47,44.5,True,,,,False
+P-1004,74,F,Blood-Based Biomarkers,Pending Review,24.8,24.3,False,False,24.9,0,False,False,False,False,0.113,17.4,0.1,19.2,False,,,,False
+P-1005,65,M,Blood-Based Biomarkers,Pending Review,21.6,16.2,True,False,14.5,2,False,False,True,True,0.083,41.3,0.67,36.2,True,,,,False
+P-1006,70,M,Cognitive Screening,Pending Review,18.6,19.8,True,True,17.5,0,True,False,False,False,0.054,31.9,0.36,52.6,True,,,,False
+P-1007,76,M,Cognitive Screening,Pending Review,19.9,18.6,True,True,18.4,2,False,False,False,True,,,,,False,,,,False
+P-1008,60,M,MRI Evaluation,Pending Review,19.1,21.8,True,True,20.2,1,False,False,True,True,0.083,39.9,0.59,52.9,True,2470.8,2.04,0.036,True
+P-1009,62,M,Blood-Based Biomarkers,Pending Review,19.6,20.8,True,True,16.9,0,True,False,False,True,0.06,32.9,0.41,49.7,True,2459.6,2.59,0.058,True
+P-1010,58,F,PET Scan Prioritization,Pending Review,25.2,22.0,False,False,28.5,2,True,False,False,False,0.125,16.7,0.23,13.0,True,3658.5,2.8,0.032,True
+P-1011,58,M,Blood-Based Biomarkers,Completed,24.4,24.5,True,True,24.6,2,False,False,True,True,0.126,15.7,0.25,18.6,False,,,,False
+P-1012,78,M,PET Scan Prioritization,Pending Review,24.7,27.7,False,False,28.1,0,True,False,False,False,0.118,17.3,0.16,19.3,False,3727.5,2.72,0.02,True
+P-1013,70,M,Blood-Based Biomarkers,Completed,19.9,18.6,True,True,21.3,1,True,False,False,False,0.059,30.2,0.65,34.2,True,,,,False
+P-1014,67,M,Cognitive Screening,Pending Review,24.5,24.3,True,True,23.3,0,False,False,False,False,0.136,17.7,0.2,24.2,False,,,,False
+P-1015,66,F,MRI Evaluation,Pending Review,29.4,26.3,False,False,28.5,1,True,False,False,False,0.135,11.8,0.08,15.2,False,3727.1,3.44,0.032,True
+P-1016,73,F,MRI Evaluation,Pending Review,24.0,26.1,False,False,25.3,1,False,False,True,False,0.101,9.4,0.13,25.2,True,3623.2,3.17,0.029,True
+P-1017,71,M,Cognitive Screening,Pending Review,23.8,16.8,True,True,18.0,2,False,False,False,True,,,,,False,,,,False
+P-1018,69,F,Cognitive Screening,Completed,25.8,24.3,False,False,22.3,2,True,False,False,False,,,,,False,3909.6,3.15,0.019,True
+P-1019,73,M,Blood-Based Biomarkers,Pending Review,25.4,23.2,False,True,25.9,1,False,False,True,False,0.139,10.9,0.2,22.7,False,3537.6,3.36,0.024,True
+P-1020,68,F,Cognitive Screening,Pending Review,27.8,27.1,False,False,26.3,1,True,False,False,True,,,,,False,,,,False
+P-1021,62,M,Blood-Based Biomarkers,Under Review,24.2,26.7,True,True,27.4,0,True,False,False,False,0.091,14.1,0.1,21.0,False,,,,False
+P-1022,65,F,MRI Evaluation,Pending Review,25.0,27.5,False,True,25.1,2,True,True,False,False,0.137,9.7,0.13,13.6,True,4224.7,3.49,0.022,True
+P-1023,77,F,MRI Evaluation,Pending Review,21.3,18.7,True,False,15.9,0,False,False,False,True,0.053,39.9,0.71,45.1,True,2671.2,2.14,0.057,True
+P-1024,73,M,Blood-Based Biomarkers,Under Review,29.4,29.1,False,True,28.2,0,True,True,False,False,0.122,9.0,0.09,24.6,False,3906.4,2.71,0.02,True
+P-1025,71,M,Blood-Based Biomarkers,Completed,28.2,27.2,False,True,23.8,1,False,False,False,True,0.126,10.8,0.12,22.5,False,,,,False
+P-1026,60,F,MRI Evaluation,Pending Review,21.9,20.9,True,True,19.3,0,False,True,True,True,0.07,23.9,0.5,35.2,True,2595.2,2.58,0.047,True
+P-1027,72,M,MRI Evaluation,Pending Review,22.8,18.5,True,True,18.6,2,True,False,False,False,0.067,25.9,0.64,35.6,True,2419.5,2.35,0.04,True
+P-1028,76,M,Cognitive Screening,Pending Review,29.6,29.6,False,False,29.3,0,True,False,True,True,,,,,False,,,,False
+P-1029,69,F,Cognitive Screening,Pending Review,23.8,21.7,True,True,20.8,1,False,True,False,True,,,,,False,2635.6,2.17,0.061,True
+P-1030,75,M,Blood-Based Biomarkers,Under Review,25.9,23.4,False,False,26.5,2,False,True,False,True,0.137,16.4,0.18,13.4,False,,,,False
+P-1031,70,F,Cognitive Screening,Pending Review,29.3,27.9,False,False,27.6,1,False,True,False,False,,,,,False,,,,False
+P-1032,61,F,Blood-Based Biomarkers,Pending Review,28.2,24.9,False,False,24.3,2,False,False,False,True,0.13,17.7,0.25,24.8,False,,,,False
+P-1033,73,F,Cognitive Screening,Completed,22.8,19.5,True,True,19.6,2,True,True,False,False,0.078,39.8,0.49,38.1,True,,,,False
+P-1034,92,M,Blood-Based Biomarkers,Pending Review,18.6,19.0,True,False,14.3,0,True,False,True,True,0.066,32.9,0.46,44.0,True,,,,False
+P-1035,66,F,Cognitive Screening,Pending Review,24.8,26.2,False,True,28.2,2,True,True,False,True,0.101,15.5,0.07,12.7,False,,,,False
+P-1036,78,M,Cognitive Screening,Completed,21.2,18.8,True,True,19.1,1,True,True,False,True,0.075,41.5,0.56,36.7,True,,,,False
+P-1037,65,M,Blood-Based Biomarkers,Completed,26.6,22.6,False,True,22.2,0,True,False,False,False,0.138,18.0,0.21,17.7,False,,,,False
+P-1038,76,F,Cognitive Screening,Pending Review,25.0,23.3,False,False,24.0,2,False,False,False,False,,,,,False,,,,False
+P-1039,83,M,MRI Evaluation,Completed,28.0,24.2,True,False,29.6,1,True,True,False,False,0.127,14.7,0.19,17.9,False,3547.7,3.02,0.03,True
+P-1040,73,M,Cognitive Screening,Under Review,24.1,22.9,False,False,22.4,1,False,False,False,False,0.092,18.3,0.21,18.6,False,,,,False
+P-1041,69,M,Cognitive Screening,Completed,26.8,23.4,False,False,25.5,1,False,False,True,False,0.11,15.4,0.2,12.6,True,,,,False
+P-1043,63,M,Cognitive Screening,Pending Review,20.2,19.4,True,True,18.0,1,True,False,True,True,,,,,False,,,,False
+P-1044,73,M,Cognitive Screening,Completed,19.0,15.5,True,True,19.1,0,True,True,False,True,0.051,33.7,0.73,43.5,False,2710.5,2.35,0.049,True
+P-1045,76,F,Cognitive Screening,Pending Review,21.3,21.6,True,True,17.1,3,False,True,False,True,0.084,40.1,0.43,29.9,False,,,,False
+P-1046,72,F,MRI Evaluation,Pending Review,18.4,17.2,True,True,20.8,0,True,False,False,True,0.051,38.3,0.46,31.2,False,2957.4,2.34,0.061,True
+P-1047,65,F,MRI Evaluation,Pending Review,28.4,28.4,False,True,24.3,1,False,False,False,False,0.099,17.0,0.24,25.9,False,3712.6,3.03,0.03,True
+P-1048,74,F,Cognitive Screening,Under Review,29.2,25.4,False,True,28.0,0,True,True,False,False,,,,,False,,,,False
+P-1049,68,F,Cognitive Screening,Pending Review,28.5,22.8,False,False,29.2,1,True,False,False,False,,,,,False,,,,False
+P-1050,79,M,Blood-Based Biomarkers,Completed,25.9,29.2,False,False,25.1,1,False,False,False,False,0.091,18.9,0.07,16.5,False,4250.1,3.56,0.027,True
+P-1051,70,F,Cognitive Screening,Completed,27.8,25.6,False,False,24.3,0,False,False,True,False,,,,,False,,,,False
+P-1052,79,F,PET Scan Prioritization,Pending Review,28.5,28.3,False,False,28.3,2,False,False,False,False,0.095,13.9,0.06,19.7,True,3741.5,3.5,0.024,True
+P-1053,61,F,Cognitive Screening,Pending Review,24.7,23.1,False,False,28.1,0,False,True,False,True,0.121,9.2,0.07,21.8,False,,,,False
+P-1054,66,M,Cognitive Screening,Under Review,24.5,29.9,False,False,25.0,1,True,False,True,False,0.109,17.8,0.27,25.8,False,,,,False
+P-1055,71,F,Cognitive Screening,Pending Review,22.5,17.6,True,True,14.7,3,False,False,False,False,,,,,False,,,,False
+P-1056,72,M,Cognitive Screening,Completed,26.5,29.3,False,False,22.9,2,True,False,True,False,0.115,8.1,0.16,12.8,False,3418.8,2.81,0.028,True
+P-1057,81,F,Cognitive Screening,Pending Review,22.5,19.1,True,True,21.7,2,False,False,False,True,0.063,27.7,0.7,34.0,False,,,,False
+P-1058,70,F,Blood-Based Biomarkers,Under Review,30.0,22.6,False,False,26.4,0,False,False,False,False,0.138,14.3,0.19,21.7,True,3754.5,3.26,0.027,True
+P-1059,77,M,PET Scan Prioritization,Under Review,29.4,22.4,False,False,24.2,1,False,False,True,True,0.138,18.7,0.15,20.7,True,3577.4,2.87,0.025,True
+P-1060,77,M,Cognitive Screening,Completed,24.5,29.8,False,True,29.9,1,True,False,True,True,0.125,14.4,0.12,23.4,False,,,,False
+P-1061,56,F,Cognitive Screening,Completed,22.1,16.1,True,True,21.3,0,True,False,False,True,0.079,41.0,0.64,44.6,True,,,,False
+P-1062,75,M,Cognitive Screening,Pending Review,23.2,15.3,True,True,14.2,1,False,True,False,False,,,,,False,,,,False
+P-1063,69,F,Cognitive Screening,Pending Review,26.3,28.5,False,True,29.9,1,True,False,False,True,0.098,15.1,0.14,25.6,False,,,,False
+P-1064,72,F,Cognitive Screening,Pending Review,20.8,17.9,True,True,16.2,2,False,True,False,True,,,,,False,,,,False
+P-1065,72,F,MRI Evaluation,Completed,24.3,28.9,False,False,28.5,1,True,False,False,True,0.14,20.0,0.18,22.8,False,4244.8,3.46,0.022,True
+P-1066,61,M,MRI Evaluation,Completed,29.7,26.8,False,False,23.8,2,False,False,True,True,0.124,15.4,0.13,13.6,False,3971.6,3.17,0.03,True
+P-1067,68,M,Cognitive Screening,Under Review,21.1,21.0,True,True,18.4,1,True,False,False,True,0.07,39.5,0.51,31.6,False,,,,False
+P-1068,81,F,Cognitive Screening,Completed,19.3,16.0,True,True,14.1,2,True,False,False,True,0.062,33.8,0.51,39.8,True,,,,False
+P-1069,76,M,Cognitive Screening,Under Review,23.4,17.4,True,True,18.1,1,False,False,True,True,0.077,29.9,0.6,51.3,True,,,,False
+P-1070,69,M,Cognitive Screening,Under Review,25.5,25.7,False,False,29.8,1,False,False,False,False,0.115,11.9,0.2,15.4,False,,,,False
+P-1071,75,M,Cognitive Screening,Under Review,24.5,23.0,False,True,23.0,1,False,False,False,True,0.098,9.7,0.2,14.5,False,3645.7,3.51,0.026,True
+P-1072,62,F,Cognitive Screening,Under Review,25.2,22.3,False,False,23.4,0,True,False,True,False,0.104,10.1,0.07,13.7,False,,,,False
+P-1073,73,M,MRI Evaluation,Completed,20.8,16.4,True,True,16.9,2,False,True,False,False,0.068,35.8,0.37,49.6,False,2902.3,1.96,0.061,True
+P-1074,76,M,Blood-Based Biomarkers,Pending Review,28.5,23.5,False,False,23.7,2,False,False,False,False,0.109,13.8,0.19,17.2,False,,,,False
+P-1075,65,F,Cognitive Screening,Under Review,20.8,20.2,True,True,14.3,2,True,True,False,False,,,,,False,2601.9,2.4,0.062,True
+P-1076,92,M,Blood-Based Biomarkers,Pending Review,18.6,18.1,True,True,18.3,3,True,True,False,True,0.058,27.4,0.5,28.5,False,,,,False
+P-1077,78,F,Cognitive Screening,Under Review,25.9,23.7,False,True,24.6,0,False,False,True,True,0.096,18.7,0.19,21.5,False,,,,False
+P-1078,69,F,MRI Evaluation,Under Review,18.5,18.8,True,False,18.7,0,False,True,False,False,0.076,30.6,0.4,35.7,True,2690.5,2.35,0.052,True
+P-1079,81,F,Cognitive Screening,Completed,26.1,29.9,False,True,26.8,1,True,False,True,False,0.102,9.2,0.09,15.4,False,,,,False
+P-1080,67,M,MRI Evaluation,Pending Review,19.7,16.2,True,True,21.2,3,True,False,False,True,0.053,32.5,0.51,54.5,True,2489.6,2.18,0.064,True
+P-1081,66,F,Cognitive Screening,Pending Review,23.2,20.7,True,True,16.1,0,True,False,False,True,,,,,False,2536.7,2.37,0.063,True
+P-1082,85,M,Blood-Based Biomarkers,Pending Review,25.7,28.2,False,True,23.5,0,True,False,False,False,0.106,13.1,0.17,15.4,False,,,,False
+P-1083,82,M,Cognitive Screening,Under Review,18.7,19.3,True,True,16.3,1,False,False,False,True,0.07,25.1,0.54,42.4,True,2441.5,2.14,0.039,True
+P-1084,77,M,Cognitive Screening,Pending Review,19.5,19.8,True,False,20.1,2,True,False,False,True,,,,,False,,,,False
+P-1085,65,F,Cognitive Screening,Pending Review,27.6,25.8,True,False,25.3,0,True,False,False,False,0.107,19.2,0.24,25.5,False,3424.3,3.36,0.033,True
+P-1086,73,F,Cognitive Screening,Completed,29.1,23.1,False,True,28.4,1,True,True,False,False,,,,,False,,,,False
+P-1087,81,F,Cognitive Screening,Pending Review,25.2,23.3,False,False,23.3,3,True,False,False,False,0.131,16.0,0.17,17.0,False,,,,False
+P-1089,67,M,Blood-Based Biomarkers,Under Review,22.9,18.1,True,True,17.0,2,True,False,True,False,0.066,28.0,0.65,41.6,False,,,,False
+P-1090,77,M,Blood-Based Biomarkers,Pending Review,25.4,29.2,False,True,25.1,1,True,False,False,False,0.117,18.9,0.19,13.6,False,,,,False
+P-1091,71,M,Blood-Based Biomarkers,Under Review,26.0,23.1,False,True,28.4,3,False,False,False,False,0.121,14.4,0.26,23.0,False,3451.7,2.98,0.022,True
+P-1092,74,M,Cognitive Screening,Pending Review,28.5,22.3,False,False,26.6,1,False,True,False,True,,,,,False,4062.5,3.49,0.023,True
+P-1093,79,M,Blood-Based Biomarkers,Under Review,24.9,23.8,False,False,27.8,1,False,False,False,False,0.126,15.7,0.21,19.6,False,,,,False
+P-1094,66,F,Cognitive Screening,Completed,19.5,17.4,True,False,15.5,0,True,True,True,False,,,,,False,,,,False
+P-1095,71,F,Cognitive Screening,Completed,26.4,25.7,False,False,29.6,1,False,False,False,True,0.098,15.0,0.17,20.6,False,,,,False
+P-1096,76,F,Blood-Based Biomarkers,Completed,24.1,29.0,False,True,29.5,0,True,False,False,False,0.118,16.4,0.26,21.9,False,,,,False
+P-1097,71,F,Blood-Based Biomarkers,Pending Review,27.6,25.4,False,False,27.9,1,False,False,False,False,0.137,19.1,0.15,13.6,True,,,,False
+P-1098,61,M,Cognitive Screening,Pending Review,29.9,28.7,False,False,23.0,2,False,True,False,False,0.136,18.4,0.17,20.3,False,,,,False
+P-1099,65,F,MRI Evaluation,Under Review,26.0,28.4,False,False,22.0,1,False,False,False,False,0.107,12.8,0.17,24.9,False,3646.3,3.01,0.03,True
+P-1100,68,M,Cognitive Screening,Under Review,26.7,23.8,True,True,25.6,1,True,False,False,False,0.097,10.1,0.16,17.9,False,4214.8,3.03,0.027,True
+P-1101,62,M,Cognitive Screening,Completed,29.8,23.2,True,False,25.3,2,True,True,False,True,,,,,False,3385.3,3.6,0.026,True
+P-1102,73,F,Cognitive Screening,Pending Review,27.6,22.5,True,False,28.0,2,True,False,False,False,,,,,False,,,,False
+P-1103,71,F,Cognitive Screening,Pending Review,25.2,23.5,False,False,22.3,1,True,False,False,False,0.114,14.8,0.07,22.9,False,,,,False
+P-1104,68,F,MRI Evaluation,Pending Review,20.7,18.7,True,True,17.5,1,False,False,False,True,0.064,33.2,0.41,32.9,True,3089.4,2.56,0.046,True
+P-1105,76,M,PET Scan Prioritization,Pending Review,26.5,22.2,False,False,23.2,2,True,True,False,False,0.126,15.9,0.06,15.1,False,3531.1,3.3,0.018,True
+P-1106,60,M,Blood-Based Biomarkers,Pending Review,24.6,28.4,False,True,23.4,2,False,False,False,False,0.123,10.9,0.07,15.4,False,,,,False
+P-1107,75,F,Blood-Based Biomarkers,Completed,29.0,25.2,False,True,27.3,2,True,False,False,False,0.1,11.5,0.26,12.2,False,3385.5,2.89,0.018,True
+P-1108,73,F,Cognitive Screening,Completed,19.1,19.1,True,True,17.4,2,False,False,False,True,0.081,38.3,0.49,35.0,False,2703.8,2.31,0.043,True
+P-1109,60,M,Cognitive Screening,Pending Review,27.3,25.5,True,False,24.4,1,True,False,False,False,,,,,False,,,,False
+P-1110,83,F,Cognitive Screening,Pending Review,29.7,28.1,False,True,23.1,2,True,True,False,False,0.133,13.8,0.26,23.2,False,,,,False
+P-1111,67,F,Cognitive Screening,Pending Review,19.6,18.8,True,False,19.1,0,False,True,False,True,0.059,24.8,0.68,54.6,False,,,,False
+P-1112,69,M,Cognitive Screening,Completed,27.2,23.4,False,False,24.2,1,True,False,False,False,,,,,False,,,,False
+P-1113,71,F,Cognitive Screening,Pending Review,25.6,26.4,False,True,27.2,1,True,False,False,True,,,,,False,,,,False
+P-1114,62,F,Cognitive Screening,Pending Review,29.0,23.7,False,False,22.1,1,False,False,True,False,,,,,False,,,,False
+P-1115,71,M,MRI Evaluation,Completed,21.6,19.7,True,True,15.4,0,False,True,True,False,0.082,30.4,0.5,42.0,False,2437.6,2.02,0.057,True
+P-1116,77,M,MRI Evaluation,Under Review,18.5,19.2,True,True,16.0,3,True,False,True,False,0.064,27.8,0.49,47.4,True,2637.7,2.3,0.049,True
+P-1117,73,M,MRI Evaluation,Under Review,28.4,23.7,False,False,22.2,1,False,True,False,False,0.103,15.1,0.06,18.9,False,3896.8,3.0,0.03,True
+P-1118,71,F,MRI Evaluation,Under Review,18.6,15.5,True,True,19.8,0,True,True,False,False,0.067,35.8,0.52,34.7,False,3055.3,2.46,0.056,True
+P-1119,74,F,Cognitive Screening,Completed,26.2,22.7,False,False,29.3,2,True,False,False,False,0.097,19.4,0.15,14.6,False,,,,False
+P-1120,58,F,Cognitive Screening,Pending Review,21.3,21.1,True,False,19.9,1,True,False,False,True,,,,,False,,,,False
+P-1121,74,M,Blood-Based Biomarkers,Completed,22.2,20.9,True,True,16.0,2,True,False,False,True,0.067,26.4,0.75,53.5,False,,,,False
+P-1122,78,M,Cognitive Screening,Completed,18.2,19.9,True,False,21.4,2,True,False,False,True,0.056,33.4,0.72,28.9,False,,,,False
+P-1123,61,M,Cognitive Screening,Completed,23.5,21.8,True,True,21.6,3,True,False,False,True,,,,,False,,,,False
+P-1124,77,M,Blood-Based Biomarkers,Pending Review,20.8,21.0,True,True,20.8,0,False,False,True,False,0.061,38.6,0.36,44.1,True,,,,False
+P-1125,66,M,Blood-Based Biomarkers,Pending Review,24.5,27.6,False,False,24.7,1,False,False,False,False,0.126,8.8,0.12,19.6,False,,,,False
+P-1126,67,F,Blood-Based Biomarkers,Under Review,28.7,24.6,False,False,27.0,1,True,False,False,True,0.134,15.4,0.1,12.3,True,,,,False
+P-1127,70,F,Cognitive Screening,Under Review,23.6,20.6,True,True,22.0,3,True,False,False,False,0.062,37.3,0.51,41.0,False,,,,False
+P-1128,77,M,Cognitive Screening,Pending Review,27.8,29.0,False,False,29.9,1,True,False,True,False,0.128,13.0,0.15,22.3,False,3538.8,2.8,0.024,True
+P-1129,62,F,Blood-Based Biomarkers,Completed,19.4,15.3,True,False,14.1,2,True,False,False,False,0.085,30.6,0.5,46.4,True,,,,False
+P-1130,62,F,Cognitive Screening,Pending Review,25.3,29.6,False,False,28.3,1,False,True,False,True,,,,,False,,,,False
+P-1131,68,F,Cognitive Screening,Pending Review,29.3,29.6,False,False,25.7,0,False,False,False,False,,,,,False,3913.4,2.85,0.034,True
+P-1132,63,M,MRI Evaluation,Under Review,25.4,29.5,False,True,27.2,1,True,False,False,False,0.12,14.2,0.1,14.5,False,3520.5,2.87,0.03,True
+P-1133,66,M,Cognitive Screening,Under Review,29.8,29.1,False,False,29.4,2,True,False,False,False,,,,,False,,,,False
+P-1134,68,F,Blood-Based Biomarkers,Under Review,30.0,23.4,False,False,25.2,1,False,False,False,False,0.128,16.4,0.09,23.4,True,,,,False
+P-1135,64,M,Cognitive Screening,Pending Review,27.2,26.7,False,False,26.6,3,True,False,False,False,,,,,False,,,,False
+P-1136,64,F,MRI Evaluation,Completed,24.5,29.0,True,False,24.1,3,False,False,False,True,0.096,18.7,0.27,24.1,False,4109.5,3.29,0.027,True
+P-1137,68,F,Blood-Based Biomarkers,Under Review,26.2,24.1,False,False,27.8,0,False,False,True,True,0.115,9.0,0.1,21.6,False,,,,False
+P-1138,64,F,PET Scan Prioritization,Pending Review,18.5,21.0,True,True,18.0,0,True,False,True,False,0.067,33.8,0.68,37.4,True,2942.4,2.3,0.043,True
+P-1139,71,M,Blood-Based Biomarkers,Pending Review,28.0,28.8,False,False,28.9,1,False,False,False,False,0.125,18.0,0.21,21.5,True,3918.6,3.38,0.021,True
+P-1140,72,M,Cognitive Screening,Under Review,23.3,21.1,True,True,14.2,1,True,False,False,True,0.079,24.6,0.48,48.1,True,,,,False
+P-1141,72,F,Blood-Based Biomarkers,Pending Review,23.0,18.6,True,True,14.1,0,True,True,True,True,0.06,34.3,0.74,45.1,True,,,,False
+P-1142,67,F,Cognitive Screening,Under Review,25.6,27.1,False,False,26.3,2,False,False,True,False,,,,,False,4079.8,2.8,0.03,True
+P-1143,74,M,Cognitive Screening,Completed,20.1,19.4,True,True,21.5,0,True,False,False,False,,,,,False,2482.0,2.56,0.056,True
+P-1144,70,M,Cognitive Screening,Pending Review,18.4,17.1,True,False,19.7,1,True,False,True,False,0.052,33.6,0.49,44.8,True,,,,False
+P-1145,65,F,Cognitive Screening,Pending Review,22.5,15.2,True,True,14.2,0,False,True,False,False,0.061,31.8,0.66,46.4,True,,,,False
+P-1146,72,M,Cognitive Screening,Pending Review,20.7,16.9,True,False,22.0,2,True,False,False,True,,,,,False,,,,False
+P-1147,59,F,Blood-Based Biomarkers,Pending Review,19.0,20.6,True,True,19.5,1,True,False,True,False,0.058,23.6,0.62,45.7,True,,,,False
+P-1148,55,M,Cognitive Screening,Completed,19.6,21.7,True,True,15.2,0,False,False,False,False,0.065,40.9,0.52,45.2,True,,,,False
+P-1149,58,F,Cognitive Screening,Pending Review,29.9,25.3,False,True,29.2,1,True,False,False,False,,,,,False,,,,False
+P-1150,64,M,Cognitive Screening,Under Review,19.4,16.5,True,False,14.2,0,False,False,False,True,0.073,29.4,0.7,40.8,False,,,,False
+P-1151,72,F,Cognitive Screening,Pending Review,28.6,28.8,False,False,28.1,2,True,False,False,False,0.121,9.6,0.06,24.9,False,,,,False
+P-1152,73,M,Blood-Based Biomarkers,Pending Review,27.7,28.4,False,False,25.9,3,False,True,True,False,0.096,9.5,0.21,18.0,False,,,,False
+P-1153,69,F,Cognitive Screening,Pending Review,18.4,19.1,True,True,16.2,2,False,False,False,True,0.078,28.2,0.53,28.3,True,,,,False
+P-1154,59,F,Blood-Based Biomarkers,Completed,24.4,25.1,False,False,25.8,0,False,True,False,False,0.12,11.5,0.21,24.0,True,4079.9,2.74,0.026,True
+P-1155,68,F,Cognitive Screening,Completed,29.9,23.1,False,False,26.0,2,True,False,True,False,0.121,16.4,0.18,12.1,False,,,,False
+P-1156,66,M,Blood-Based Biomarkers,Under Review,26.0,26.1,True,False,22.7,0,True,True,True,True,0.108,8.4,0.07,17.6,False,3432.7,3.21,0.029,True
+P-1157,65,F,Cognitive Screening,Pending Review,25.0,22.8,False,False,27.1,3,True,False,True,False,0.125,8.4,0.27,12.7,True,,,,False
+P-1158,74,M,Cognitive Screening,Pending Review,27.2,27.7,False,True,29.0,0,False,False,False,False,0.126,17.6,0.13,23.4,False,3380.1,3.51,0.027,True
+P-1159,68,M,MRI Evaluation,Under Review,27.9,26.2,False,True,27.9,0,True,True,False,True,0.094,8.7,0.11,14.2,False,4171.8,2.9,0.034,True
+P-1160,79,M,Blood-Based Biomarkers,Completed,26.0,23.5,False,False,28.3,1,False,False,False,True,0.123,14.0,0.18,22.1,False,,,,False
+P-1161,70,F,Cognitive Screening,Pending Review,25.2,27.4,False,True,22.6,3,True,True,False,False,,,,,False,,,,False
+P-1162,70,M,MRI Evaluation,Under Review,24.2,24.1,False,False,25.7,0,True,False,True,False,0.133,16.7,0.22,18.0,False,3645.9,3.03,0.034,True
+P-1163,58,M,Cognitive Screening,Under Review,28.4,25.9,True,False,29.0,0,True,True,True,True,0.135,13.1,0.11,20.3,False,,,,False
+P-1164,85,M,Blood-Based Biomarkers,Under Review,29.5,23.7,False,False,27.0,0,True,False,False,True,0.122,16.8,0.08,22.0,False,4209.0,2.86,0.022,True
+P-1165,69,M,Cognitive Screening,Completed,25.5,29.0,True,False,25.6,0,True,False,False,False,,,,,False,,,,False
+P-1166,78,M,Cognitive Screening,Under Review,27.1,24.9,False,True,26.7,1,True,False,True,False,0.098,12.7,0.27,15.6,False,3956.7,2.99,0.03,True
+P-1167,58,M,Cognitive Screening,Pending Review,18.4,16.2,True,True,18.2,2,False,True,False,True,,,,,False,,,,False
+P-1168,67,F,Cognitive Screening,Completed,20.0,20.8,True,False,17.4,1,False,False,False,True,,,,,False,,,,False
+P-1169,74,F,MRI Evaluation,Pending Review,28.2,23.3,False,False,23.3,0,True,True,False,False,0.092,16.8,0.2,18.6,False,4144.2,3.43,0.027,True
+P-1170,59,F,Cognitive Screening,Pending Review,23.2,16.4,True,True,14.9,1,True,False,True,True,,,,,False,,,,False
+P-1171,69,F,Cognitive Screening,Pending Review,21.2,21.6,True,False,14.3,2,True,False,True,True,0.054,31.0,0.72,36.5,True,,,,False
+P-1172,69,F,Cognitive Screening,Pending Review,21.0,15.3,True,True,15.2,1,True,False,True,False,,,,,False,,,,False
+P-1173,76,F,MRI Evaluation,Under Review,26.7,26.1,False,True,25.9,1,True,False,True,False,0.123,9.7,0.06,16.3,True,4004.7,2.88,0.029,True
+P-1174,72,M,Cognitive Screening,Under Review,29.8,22.8,False,True,27.4,1,True,True,False,False,,,,,False,,,,False
+P-1175,78,F,Cognitive Screening,Under Review,25.1,27.5,False,False,28.7,1,False,True,False,False,,,,,False,,,,False
+P-1176,68,F,Blood-Based Biomarkers,Pending Review,23.7,19.8,True,True,18.0,0,False,False,False,False,0.072,39.4,0.58,28.8,False,,,,False
+P-1177,71,F,Blood-Based Biomarkers,Completed,28.1,23.7,False,False,27.3,1,True,True,False,False,0.11,15.8,0.07,21.2,False,4299.4,2.74,0.034,True
+P-1178,73,M,Blood-Based Biomarkers,Pending Review,20.4,21.1,True,False,20.3,0,False,False,False,False,0.07,36.8,0.7,38.9,False,2661.6,2.37,0.059,True
+P-1179,75,F,Cognitive Screening,Pending Review,20.6,20.7,True,True,15.0,1,True,False,False,False,0.069,22.1,0.48,37.9,True,2716.9,2.39,0.047,True
+P-1180,74,F,Cognitive Screening,Pending Review,26.7,23.9,False,False,25.0,1,False,False,False,False,0.101,8.9,0.19,21.4,True,3919.5,3.12,0.024,True
+P-1181,70,F,Cognitive Screening,Completed,26.9,22.2,True,False,24.7,3,False,True,False,False,0.109,12.8,0.18,19.5,False,3907.9,3.39,0.031,True
+P-1182,78,M,MRI Evaluation,Completed,22.3,21.7,True,False,14.1,1,False,False,False,False,0.057,22.2,0.61,52.2,True,2594.8,2.55,0.037,True
+P-1183,68,F,Blood-Based Biomarkers,Completed,24.6,25.9,False,False,24.1,2,True,False,False,True,0.104,11.7,0.23,19.5,False,,,,False
+P-1184,74,M,Blood-Based Biomarkers,Completed,19.9,19.3,True,True,19.7,2,False,False,False,True,0.06,30.3,0.4,32.9,True,,,,False
+P-1185,62,M,Cognitive Screening,Completed,27.2,27.7,False,False,22.9,0,True,False,False,True,,,,,False,3867.3,2.93,0.033,True
+P-1186,74,M,Cognitive Screening,Under Review,26.9,28.4,False,False,26.4,1,False,False,False,False,0.092,15.6,0.27,20.4,False,4119.2,3.5,0.022,True
+P-1187,73,M,Blood-Based Biomarkers,Pending Review,20.5,20.9,True,True,21.2,1,True,False,False,True,0.062,26.7,0.66,35.4,True,,,,False
+P-1188,60,M,Blood-Based Biomarkers,Completed,28.9,25.4,False,True,27.3,1,False,False,False,False,0.095,15.5,0.15,20.2,False,3468.0,3.36,0.032,True
+P-1189,68,M,Blood-Based Biomarkers,Pending Review,24.1,27.1,False,False,26.9,1,True,True,False,False,0.117,10.8,0.14,20.3,False,,,,False
+P-1190,69,F,MRI Evaluation,Pending Review,21.0,21.9,True,True,15.1,0,True,False,False,False,0.074,30.1,0.52,47.4,False,2953.9,2.59,0.039,True
+P-1191,72,M,Cognitive Screening,Pending Review,27.5,24.2,False,False,22.6,1,False,False,False,True,0.094,18.7,0.09,16.5,False,,,,False
+P-1192,65,M,Cognitive Screening,Completed,19.4,17.5,True,True,14.6,3,True,False,False,True,0.068,23.4,0.67,34.3,True,,,,False
+P-1193,77,F,Cognitive Screening,Pending Review,27.9,26.3,False,False,24.6,0,False,False,True,True,0.107,16.0,0.28,21.3,False,,,,False
+P-1194,70,M,Cognitive Screening,Under Review,27.3,27.8,False,True,25.7,1,False,False,False,True,,,,,False,3360.1,3.21,0.033,True
+P-1195,74,M,Cognitive Screening,Under Review,19.2,18.8,True,False,14.8,2,False,True,False,True,0.066,37.1,0.49,46.0,True,,,,False
+P-1196,63,F,Cognitive Screening,Pending Review,22.8,21.5,True,True,15.9,2,True,False,False,False,0.064,25.0,0.75,53.0,False,,,,False
+P-1197,79,M,Cognitive Screening,Completed,21.1,19.4,True,True,14.7,2,False,True,False,True,0.076,24.6,0.68,49.1,True,,,,False
+P-1198,71,F,Cognitive Screening,Under Review,22.3,15.3,True,True,16.4,0,True,True,False,True,0.059,29.2,0.39,53.3,True,,,,False
+P-1199,56,F,Cognitive Screening,Pending Review,20.4,18.1,True,True,18.8,0,True,False,False,True,0.068,40.4,0.55,54.8,True,3081.1,2.05,0.063,True
+P-1200,73,M,Cognitive Screening,Under Review,18.7,20.7,True,True,17.0,1,True,False,False,True,,,,,False,,,,False
+P-1201,74,F,Cognitive Screening,Pending Review,25.8,22.6,False,True,25.2,0,True,False,False,False,0.099,16.3,0.13,25.7,False,,,,False
+P-1202,74,F,Cognitive Screening,Pending Review,27.8,28.6,False,False,23.1,2,False,False,False,False,,,,,False,,,,False
+P-1203,88,F,Cognitive Screening,Under Review,22.6,16.2,True,True,18.0,1,False,False,False,True,,,,,False,,,,False
+P-1204,67,F,Cognitive Screening,Pending Review,20.4,16.0,True,True,16.9,0,True,False,False,False,,,,,False,2454.5,1.92,0.039,True
+P-1205,70,F,Blood-Based Biomarkers,Completed,23.8,18.0,True,False,16.5,0,True,False,False,True,0.068,30.8,0.39,45.3,False,,,,False
+P-1206,73,F,Blood-Based Biomarkers,Pending Review,25.3,27.0,False,False,27.2,2,True,True,False,False,0.098,8.7,0.23,18.4,False,,,,False
+P-1207,71,F,Cognitive Screening,Pending Review,23.9,16.7,True,True,15.1,0,False,False,False,False,0.054,28.1,0.39,46.7,False,,,,False
+P-1208,67,F,Cognitive Screening,Completed,24.4,26.1,False,True,30.0,3,True,False,False,False,,,,,False,,,,False
+P-1209,73,F,Cognitive Screening,Completed,25.8,27.0,False,False,26.2,1,False,False,False,True,0.111,9.6,0.25,18.3,False,,,,False
+P-1210,78,M,Cognitive Screening,Completed,19.2,17.6,True,True,17.3,0,False,False,False,True,,,,,False,3062.0,2.41,0.058,True
+P-1211,69,M,Cognitive Screening,Pending Review,20.9,15.1,True,False,16.1,3,True,True,False,False,,,,,False,3008.2,2.0,0.051,True
+P-1212,68,F,Blood-Based Biomarkers,Pending Review,19.3,15.1,True,False,15.9,2,False,False,False,True,0.084,38.0,0.73,41.2,False,,,,False
+P-1213,70,F,Cognitive Screening,Pending Review,26.7,28.8,False,False,22.8,1,True,False,False,False,0.114,9.8,0.12,22.3,False,,,,False
+P-1214,62,F,MRI Evaluation,Pending Review,20.9,17.6,True,True,17.2,1,True,True,False,False,0.066,37.7,0.71,53.8,True,3029.5,2.12,0.056,True
+P-1215,58,F,Cognitive Screening,Pending Review,29.0,22.3,False,False,29.2,0,False,False,False,True,0.113,15.6,0.2,24.5,True,3936.7,3.25,0.019,True
+P-1216,66,F,Cognitive Screening,Completed,27.1,23.2,False,False,27.9,1,True,False,False,False,0.116,16.2,0.06,13.2,False,4016.3,2.76,0.019,True
+P-1217,63,M,Cognitive Screening,Completed,25.8,24.8,False,False,28.2,1,False,False,True,False,0.123,10.2,0.09,13.4,False,,,,False
+P-1218,79,M,Cognitive Screening,Pending Review,22.0,20.4,True,False,16.1,0,False,False,True,True,0.051,23.6,0.74,36.0,True,3015.4,2.34,0.046,True
+P-1219,67,M,Cognitive Screening,Completed,27.7,28.2,False,False,27.2,3,False,False,False,True,0.117,8.5,0.27,23.2,False,,,,False
+P-1220,68,F,Cognitive Screening,Pending Review,25.8,29.8,False,False,26.8,0,False,False,False,False,0.119,17.0,0.24,21.2,False,,,,False
+P-1221,67,M,Cognitive Screening,Under Review,23.6,16.6,True,True,17.0,0,True,False,False,False,,,,,False,,,,False
+P-1222,63,F,Cognitive Screening,Pending Review,26.6,25.5,False,False,26.9,2,False,False,True,False,,,,,False,4243.1,2.92,0.02,True
+P-1223,71,M,Cognitive Screening,Completed,27.9,24.3,False,False,28.5,1,False,True,False,False,0.133,18.2,0.26,15.5,False,,,,False
+P-1224,68,F,Cognitive Screening,Completed,28.5,25.7,True,False,28.7,2,True,False,False,False,0.126,17.3,0.2,14.5,False,,,,False
+P-1225,72,M,Cognitive Screening,Pending Review,23.6,15.3,True,True,15.3,2,True,False,False,True,0.055,36.5,0.68,33.8,True,,,,False
+P-1226,70,M,PET Scan Prioritization,Under Review,27.0,28.7,False,False,27.9,1,False,False,False,False,0.117,15.1,0.17,16.2,False,3865.0,3.32,0.032,True
+P-1227,79,F,Cognitive Screening,Completed,25.0,25.7,False,True,22.1,3,False,False,False,True,0.102,16.7,0.28,13.4,False,3701.5,3.42,0.021,True
+P-1228,75,M,Blood-Based Biomarkers,Completed,27.3,27.9,False,True,26.9,0,True,True,False,True,0.099,12.3,0.23,19.8,False,3305.2,3.38,0.019,True
+P-1229,64,M,Blood-Based Biomarkers,Pending Review,23.7,17.6,True,True,16.6,3,True,False,False,False,0.055,28.1,0.7,54.9,True,,,,False
+P-1230,74,F,Cognitive Screening,Pending Review,20.2,18.1,True,True,19.8,0,True,True,False,False,0.081,33.9,0.51,39.1,False,,,,False
+P-1231,58,F,PET Scan Prioritization,Under Review,22.8,15.7,True,True,18.7,1,False,False,True,True,0.067,34.8,0.38,43.7,True,2849.2,2.29,0.053,True
+P-1232,79,F,Blood-Based Biomarkers,Pending Review,22.1,20.6,True,True,16.2,2,True,False,False,True,0.079,32.0,0.38,29.6,True,2667.4,2.45,0.056,True
+P-1233,70,F,Cognitive Screening,Pending Review,20.6,16.0,True,True,16.6,1,True,True,False,True,0.065,23.8,0.44,44.2,True,,,,False
+P-1234,81,M,MRI Evaluation,Pending Review,28.4,30.0,False,False,29.5,1,True,True,True,False,0.122,13.1,0.2,23.0,False,3418.3,3.07,0.031,True
+P-1235,78,F,Cognitive Screening,Under Review,27.5,23.5,False,False,24.9,2,True,False,False,False,,,,,False,,,,False
+P-1236,55,F,Cognitive Screening,Completed,26.0,22.2,False,True,22.2,1,True,False,False,True,,,,,False,,,,False
+P-1237,66,M,Cognitive Screening,Pending Review,21.1,17.1,True,False,21.5,0,True,True,False,True,0.059,30.6,0.7,50.7,True,,,,False
+P-1238,75,M,Blood-Based Biomarkers,Completed,25.1,28.4,False,False,25.7,0,True,True,False,False,0.114,9.6,0.07,22.2,False,,,,False
+P-1239,55,M,Cognitive Screening,Completed,28.4,28.1,False,False,23.3,0,True,False,False,False,,,,,False,,,,False
+P-1240,68,M,Cognitive Screening,Pending Review,27.7,23.1,False,False,28.0,1,False,False,False,True,,,,,False,,,,False
+P-1241,72,F,Cognitive Screening,Under Review,24.4,22.5,False,False,24.3,2,True,False,False,False,0.103,11.0,0.26,15.5,False,,,,False
+P-1242,70,F,MRI Evaluation,Completed,19.6,20.3,True,True,17.6,3,True,False,False,False,0.077,23.3,0.55,28.9,True,2450.1,2.53,0.039,True
+P-1243,55,M,Cognitive Screening,Pending Review,26.1,29.2,False,False,22.2,3,True,True,False,False,0.123,19.6,0.18,25.1,False,3352.3,3.08,0.022,True
+P-1244,76,M,MRI Evaluation,Under Review,28.4,29.9,False,True,24.1,0,True,False,True,False,0.123,10.4,0.18,18.5,True,4272.0,3.25,0.024,True
+P-1245,64,M,Blood-Based Biomarkers,Completed,29.1,26.5,False,False,26.2,1,True,False,False,False,0.096,18.3,0.22,12.9,False,4007.8,3.19,0.019,True
+P-1246,63,F,MRI Evaluation,Under Review,26.7,25.9,False,False,23.3,0,False,False,False,False,0.137,18.2,0.2,18.5,False,3711.8,3.29,0.027,True
+P-1247,70,F,Blood-Based Biomarkers,Pending Review,22.8,18.2,True,True,14.4,2,False,True,False,False,0.078,26.0,0.45,32.4,True,,,,False
+P-1248,64,M,PET Scan Prioritization,Pending Review,26.0,28.1,True,False,26.2,2,False,False,False,False,0.1,18.5,0.25,24.2,False,3538.8,3.11,0.034,True

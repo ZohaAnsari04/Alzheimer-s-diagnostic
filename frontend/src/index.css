@@ -1,0 +1,354 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F7F9FC;
+    --bg-secondary: #F9FBFD;
+    --surface-elevated: #FFFFFF;
+    --surface-soft: #F1F7FA;
+    --border-subtle: #EAECF0;
+    --border-primary: #E4E7EC;
+    --border-hover: #D0D5DD;
+    --text-primary: #101828;
+    --text-secondary: #475467;
+    --text-muted: #667085;
+    --text-very-muted: #98A2B3;
+    --accent-cyan: #0891B2;
+    --accent-violet: #7C3AED;
+  }
+
+  .dark {
+    --bg-primary: #080B10;
+    --bg-secondary: #0D1118;
+    --surface-elevated: #111722;
+    --surface-soft: #151B26;
+    --border-subtle: #202938;
+    --border-primary: #202938;
+    --border-hover: #334155;
+    --text-primary: #F5F7FA;
+    --text-secondary: #98A2B3;
+    --text-muted: #667085;
+    --text-very-muted: #475467;
+    --accent-cyan: #22D3EE;
+    --accent-violet: #A78BFA;
+  }
+}
+
+body {
+  background-color: #F7F9FC;
+  color: #101828;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #080B10;
+  color: #F5F7FA;
+}
+
+
+/* Subtle Ambient Clinical Background Movement */
+body::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -10%;
+  width: 70vw;
+  height: 70vh;
+  background: radial-gradient(circle, rgba(8, 145, 178, 0.03) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+  animation: ambient-glow 20s ease-in-out infinite alternate;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -20%;
+  right: -10%;
+  width: 70vw;
+  height: 70vh;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.025) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+  animation: ambient-glow 24s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes ambient-glow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(30px, 20px) scale(1.05);
+  }
+}
+
+/* Custom Clean Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F9FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #E4E7EC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D0D5DD;
+}
+
+/* Clean Clinical Surface Styling */
+.surface-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EAECF0;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.03);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.surface-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.surface-card-hover:hover {
+  border-color: #D0D5DD;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+}
+
+/* Subtle Shimmer for Brand Accent */
+@keyframes logo-sweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.logo-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 145, 178, 0) 0%,
+    rgba(8, 145, 178, 0.15) 50%,
+    rgba(8, 145, 178, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: logo-sweep 6s linear infinite;
+}
+
+/* Diagnostic Pathway Particle Keyframes */
+@keyframes particle-travel {
+  0% {
+    left: 5%;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    left: 95%;
+    opacity: 0;
+  }
+}
+
+.pathway-particle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #0891B2;
+  box-shadow: 0 0 8px rgba(8, 145, 178, 0.4);
+  animation: particle-travel 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* ==========================================================================
+   Primary Action Button (.btn-31) - Refined Light Clinical Styling
+   ========================================================================== */
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #0891B2;
+  background-image: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(8, 145, 178, 0.18);
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-31:hover {
+  background-color: #0E7490;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.25);
+}
+
+.btn-31:disabled {
+  cursor: default;
+  opacity: 0.6;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-31 .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  position: relative;
+  z-index: 10;
+}
+
+.btn-31 .text {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Clean Custom Checkbox
+   ========================================================================== */
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  border: 1.5px solid #D0D5DD;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  transition: border-color 0.15s ease;
+}
+
+.custom-checkbox:hover {
+  border-color: #0891B2;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox .checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0891B2;
+  border-radius: 2px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+  transform: translateY(0px);
+}
+
+.custom-checkbox input:not(:checked) ~ .checkmark {
+  transform: translateY(-24px);
+}
+
+.custom-checkbox .checkmark:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid #FFFFFF;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* ==========================================================================
+   Theme Switch
+   ========================================================================== */
+#theme-toggle-checkbox {
+  display: none;
+}
+
+.theme-switch {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EAECF0;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.05);
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.theme-switch hover {
+  border-color: #D0D5DD;
+  background-color: #F8FAFC;
+}
+
+.theme-switch svg {
+  width: 0.9em;
+  height: 0.9em;
+  transition: all 0.2s ease;
+}
+
+.theme-switch svg path {
+  fill: #667085;
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  body::after,
+  .logo-shimmer,
+  .pathway-particle {
+    animation: none !important;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
