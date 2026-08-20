@@ -58,7 +58,7 @@ def get_patients(
         "patients": patients
     }
 
-@router.get("/{patient_id}")
+@router.get("/{patient_id}", response_model=PatientResponse)
 def get_patient_detail(
     patient_id: str,
     db: Session = Depends(get_db),

@@ -91,7 +91,8 @@ def notify_high_priority_patient(
     previous_priority: str = "MEDIUM"
 ):
     """Triggers WARNING notification when a patient transitions to HIGH priority."""
-    event_key_prefix = f"HIGH_PRIORITY_{patient_id}_{int(priority_score)}"
+    ts = int(datetime.utcnow().timestamp())
+    event_key_prefix = f"HIGH_PRIORITY_{patient_id}_{int(priority_score)}_{ts}"
     broadcast_notification_to_role(
         db=db,
         target_role=None, # All clinicians & admins
@@ -116,8 +117,8 @@ def notify_mri_capacity_threshold(
     threshold: float = 80.0
 ):
     """Triggers WARNING notification when MRI capacity crosses configured threshold."""
-    today_str = datetime.utcnow().strftime("%Y-%m-%d")
-    event_key_prefix = f"MRI_CAPACITY_{today_str}_{int(utilization)}"
+    ts = int(datetime.utcnow().timestamp())
+    event_key_prefix = f"MRI_CAPACITY_{int(utilization)}_{ts}"
     broadcast_notification_to_role(
         db=db,
         target_role=None,
@@ -142,8 +143,8 @@ def notify_pet_queue_increase(
     increase = current_count - previous_count
     if increase <= 0:
         return
-    today_str = datetime.utcnow().strftime("%Y-%m-%d")
-    event_key_prefix = f"PET_QUEUE_{today_str}_{current_count}"
+    ts = int(datetime.utcnow().timestamp())
+    event_key_prefix = f"PET_QUEUE_{current_count}_{ts}"
     broadcast_notification_to_role(
         db=db,
         target_role=None,
@@ -273,7 +274,7 @@ def notify_security_event(
 def get_user_notifications(
     db: Session,
     user_id: int,
-    limit: int = 20,
+    limit: int = 50,
     unread_only: bool = False
 ) -> List[Notification]:
     query = db.query(Notification).filter(Notification.user_id == user_id)

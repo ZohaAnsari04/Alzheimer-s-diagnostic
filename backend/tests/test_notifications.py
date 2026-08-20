@@ -1,3 +1,4 @@
+import uuid
 from fastapi.testclient import TestClient
 from app.main import app
 from app.database.connection import engine, Base, SessionLocal
@@ -31,6 +32,7 @@ def test_notification_creation():
     try:
         seed_demo_users_if_empty(db)
         user = db.query(User).filter(User.email == "clinician@neuropath.demo").first()
+        unique_key = f"TEST_EVENT_{uuid.uuid4()}"
         notif = notification_service.create_notification(
             db=db,
             user_id=user.id,
@@ -40,7 +42,7 @@ def test_notification_creation():
             message="Test message",
             patient_id="P-9999",
             route="/patients/P-9999",
-            event_key="TEST_EVENT_9999"
+            event_key=unique_key
         )
         assert notif is not None
         assert notif.title == "Test High Priority"
@@ -53,7 +55,7 @@ def test_duplicate_notification_prevention():
     try:
         seed_demo_users_if_empty(db)
         user = db.query(User).filter(User.email == "clinician@neuropath.demo").first()
-        key = "DEDUP_UNIQUE_EVENT_123"
+        key = f"DEDUP_UNIQUE_EVENT_{uuid.uuid4()}"
         n1 = notification_service.create_notification(
             db=db, user_id=user.id, type="MRI_CAPACITY", severity="WARNING",
             title="DEDUP 1", message="M1", event_key=key

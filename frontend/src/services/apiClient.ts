@@ -233,5 +233,22 @@ export const api = {
   // Demo Trigger
   generateDemoCohort: async (count = 248) => {
     return fetchJson<any>(`/demo/generate-cohort?count=${count}`, { method: 'POST' });
+  },
+
+  // Backward-compatible method aliases
+  getMe: async () => {
+    return fetchJson<UserProfile>('/auth/me');
+  },
+  getPatientById: async (id: string) => {
+    return fetchJson<PatientDetail>(`/patients/${id}`);
+  },
+  getImpactSavings: async () => {
+    return fetchJson<any>('/analytics/resource-capacity');
+  },
+  getPatientExplainability: async (id: string) => {
+    return fetchJson<any>(`/model/explainability/${id}`);
+  },
+  getPatientPathway: async (id: string) => {
+    return fetchJson<any>(`/pathway/stage/${id}`);
   }
 };
